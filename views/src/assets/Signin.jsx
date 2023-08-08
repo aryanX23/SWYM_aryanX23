@@ -7,7 +7,7 @@ import "./Signin.css"
 import { Card } from "@mui/material";
 
 function Signin(){
-  const URL = "http://172.18.107.126:8080"
+  const URL = "http://localhost:8080"
   
   const [data,setData] = useState([]);
   const [name,setName] = useState("");
@@ -16,7 +16,7 @@ function Signin(){
   const handleChangesCsv = (e) =>{
     const file = e.target.files[0];
     const redirect = (maskedUrl) => {
-      window.open(maskedUrl,"_blank"); 
+      window.open(maskedUrl, "_blank", "noreferrer"); 
     }
     const reader = new FileReader();
     reader.onload = (e) => {

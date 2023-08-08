@@ -38,3 +38,5 @@ MONGO_URI = "The DB URL"
 
 
 And.. Thats it !!
+
+Video Link: https://drive.google.com/file/d/1iaRiLUSMD-HJ_tPCDtm40zRFhOqSwH84/view?usp=sharing
