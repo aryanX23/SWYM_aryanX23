@@ -6,6 +6,6 @@ const { handleMask, handleRedirect } = require('../controllers/maskController');
 router.use(cookieParser());
 
 router.post('/maskUrl', handleMask);
-router.post("/redirect/:id", handleRedirect);
+router.get("/redirect/:id", handleRedirect);
 
 module.exports = router;
